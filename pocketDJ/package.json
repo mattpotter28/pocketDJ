@@ -2,8 +2,15 @@
   "name": "pocket-dj",
   "version": "0.0.0",
   "description": "pocketDJ",
-  "main": "server.js",
+  "main": "index.js",
   "author": {
-    "name": "Matt"
+    "name": "matt potter"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
