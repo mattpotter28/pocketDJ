@@ -1,0 +1,9 @@
+{
+  "name": "pocket-dj",
+  "version": "0.0.0",
+  "description": "pocketDJ",
+  "main": "server.js",
+  "author": {
+    "name": "Matt"
+  }
+}
