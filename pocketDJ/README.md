@@ -1,6 +1,6 @@
 ﻿# pocketDJ
-
-** Outline **
+ 
+ **Outline**
 
 - Landing page has two options
   - Create a room
@@ -13,7 +13,7 @@
   - Text box that only accepts youtube urls
   - Invite button that copies the url to clipboard
 
-** To Do **
+**To Do**
 
 - Create/Join rooms
   - As of now it's just a giant room for the server. Socket.IO might have a solution for this, but I haven't done much research on it. Ideally, creating a room would generate a url somewhat like "pocketDJ.com/QDhEwS"
@@ -28,7 +28,7 @@
 - Streaming audio
   - This is a little less complicated than it seemed at first glance because it really only has to stream the audio for the room creator, it shouldn't have to interact with Socket.IO. Everything I've seen is talking about streaming audio from client to client but I'm sure there's a simple solution somewhere.
 
-** Optional **
+**Optional**
 
 - Commands, such as vote to kick someone from the room or vote to skip the current song
 
