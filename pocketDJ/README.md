@@ -1,8 +1,5 @@
 ﻿# pocketDJ
 
-# pocketDJ
-
-
 -- Outline --
 
 - Landing page has two options
