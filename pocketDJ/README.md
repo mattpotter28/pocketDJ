@@ -16,14 +16,14 @@
 **To Do**
 
 - Create/Join rooms
-  - As of now it's just a giant room for the server. Socket.IO might have a solution for this, but I haven't done much research on it. Ideally, creating a room would generate a url somewhat like "pocketDJ.com/QDhEwS"
+  - As of now it's just a giant room for the server. Socket.IO has support for [rooms](https://socket.io/docs/rooms-and-namespaces/) but I haven't messed around with it yet. Ideally, creating a room would generate a url somewhat like "pocketDJ.com/QDhEwS"
 
 - Filter youtube urls
   - Automatically check sent messages and filter out the ones that are not youtube urls.
   - I think this would be done as a fucntion in main.js that's called from the socket new message function in index.js but I couldn't get it working perfectly when I tried messing with it
 
 - Download youtube audio
-  - There's a module on npm that uses Node to download youtube audio to a file (https://www.npmjs.com/package/youtube-dl), but I'd like to do more research. If it's not too complicated I'd prefer not using a module.
+  - There's a module on npm called [youtube-dl](https://www.npmjs.com/package/youtube-dl) that uses Node to download youtube audio to a file , but I'd like to do more research. If it's not too complicated I'd prefer not using a module.
 
 - Streaming audio
   - This is a little less complicated than it seemed at first glance because it really only has to stream the audio for the room creator, it shouldn't have to interact with Socket.IO. Everything I've seen is talking about streaming audio from client to client but I'm sure there's a simple solution somewhere.
@@ -33,4 +33,4 @@
 - Commands, such as vote to kick someone from the room or vote to skip the current song
 
 - Use more than just youtube
-  - the youtube-dl module has support for a huge list of sites (http://rg3.github.io/youtube-dl/supportedsites.html)
+  - the youtube-dl module has support for a [huge list of sites](http://rg3.github.io/youtube-dl/supportedsites.html)
