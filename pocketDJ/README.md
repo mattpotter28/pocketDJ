@@ -1,5 +1,11 @@
 ﻿# pocketDJ
  
+ **To Run**
+ 
+ Make sure Node.js is installed, open a command window in the pocketDJ folder, and run `npm install --save express@4.15.2` and `npm install --save socket.io`.
+ 
+ Once both are installed, you can run `node index` which should open the webpage at http://localhost:3000/
+ 
  **Outline**
 
 - Landing page has two options
