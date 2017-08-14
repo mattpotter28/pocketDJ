@@ -23,6 +23,7 @@
 
 - Create/Join rooms
   - As of now it's just a giant room for the server. Socket.IO has support for [rooms](https://socket.io/docs/rooms-and-namespaces/) but I haven't messed around with it yet. Ideally, creating a room would generate a url somewhat like "pocketDJ.com/QDhEwS"
+  - Rooms are automatically deleted after a certain time period of inactivity
 
 - Filter youtube urls
   - Automatically check sent messages and filter out the ones that are not youtube urls.
