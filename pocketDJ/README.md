@@ -41,3 +41,6 @@
 
 - Use more than just youtube
   - the youtube-dl module has support for a [huge list of sites](http://rg3.github.io/youtube-dl/supportedsites.html)
+  
+- Use youtube search rather than just urls
+  - There's a [YouTube API](https://developers.google.com/youtube/v3/quickstart/nodejs) that works with Node.js that we could use to implement a [youtube search function](https://developers.google.com/youtube/v3/docs/search/list)
