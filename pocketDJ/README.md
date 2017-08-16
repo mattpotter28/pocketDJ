@@ -46,4 +46,4 @@
   - There's a [YouTube API](https://developers.google.com/youtube/v3/quickstart/nodejs) that works with Node.js that we could use to implement a [youtube search function](https://developers.google.com/youtube/v3/docs/search/list)
   
 - Maybe the room owner has a music player?
-  - Instead of the commands, the owner could have a UI to control the songs (play, pause, skip, rewind). The more research I do, the more it seems like we should find a module to handle all the audio stuff and it would save us a huge headache.
+  - Instead of the commands, the owner could have a UI to control the songs (play, pause, skip, rewind). The more research I do, the more it seems like we should use a [module](https://github.com/jameskyburz/youtube-audio-stream) to handle all the audio stuff and it would save us a huge headache.
